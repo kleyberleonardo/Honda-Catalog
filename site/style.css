@@ -1,0 +1,89 @@
+*{
+   
+}
+body{
+    background-color: rgba(255, 0, 0, 0.925);
+    background-size: cover;
+}
+
+button{
+    background-color: rgb(0, 218, 0);
+
+}
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 0px 10px 0px 10px;
+    border-radius: 0px 0px 10px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+header img{
+    width: 70px;
+    display: block
+}
+
+header ul {
+    margin: auto
+}
+
+header nav{
+    display: block;
+    align-items: center;
+}
+
+header ul li{
+    margin: auto;
+    display: inline-block;
+    padding-inline: 7px;
+}
+
+header ul li a {
+    text-decoration: none;
+    
+}
+
+main{
+    margin-top: 110px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px; /* Distância do rodapé */
+    right: 20px; /* Distância da borda direita */
+    background-color: rgb(0, 194, 0); /* Cor de fundo */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 30px; /* Botão redondo */
+    cursor: pointer; /* Cursor de ponteiro */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 1000; /* Garante que o botão esteja acima dos outros elementos */
+    display: flex;
+    padding-inline: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    
+   
+  }
+
+  .floating-button img {
+    display: inline-block;
+    padding-right: 5px;
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+  }
+
+.floating-button:hover {
+    background-color: rgb(0, 255, 0);
+}
