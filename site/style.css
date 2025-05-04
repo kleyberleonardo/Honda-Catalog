@@ -1,60 +1,57 @@
 *{
-   
+    font-family: "Cascadia Code", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 body{
-    background-color: rgba(255, 0, 0, 0.925);
-    background-size: cover;
+    background-color: red;
 }
 
-button{
-    background-color: rgb(0, 218, 0);
-
+li, a {
+    text-decoration: none;
+    font-size: 18px;
+    list-style-type: none;
+    color: red;
 }
+
 header{
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    width: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 20px 15px;
+    background-color: white;
+    width: 10px 10px 0px 10px;
     border-radius: 0px 0px 10px 10px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    justify-content: space-between;
-    text-align: center;
 }
-
 
 header img{
-    width: 70px;
-    display: block
-}
-
-header ul {
-    margin: auto
-}
-
-header nav{
-    display: block;
-    align-items: center;
-}
-
-header ul li{
-    margin: auto;
-    display: inline-block;
-    padding-inline: 7px;
-}
-
-header ul li a {
-    text-decoration: none;
+    width: 100px;
+    height: 80px;
+    justify-content: space-around;
+    margin-top: 20px;
     
 }
 
-main{
-    margin-top: 110px;
-    background-color: lightgrey;
-    border-radius: 10px;
-    padding: 10px;
-   
+nav h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    font-family:monospace, 'Arial Narrow Bold', sans-serif
+}
+
+.navegacao li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+ul{
+    padding: 0px;
+    margin: 0px;
 }
 
 .floating-button {
@@ -73,8 +70,6 @@ main{
     font-weight: bold;
     font-style: normal;
     color: rgb(255, 255, 255);
-    
-   
   }
 
   .floating-button img {
@@ -86,4 +81,84 @@ main{
 
 .floating-button:hover {
     background-color: rgb(0, 255, 0);
+}
+
+main{
+    margin-top: 150px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0px 10px 0px 10px;
+    margin-bottom: 20px;
+}
+
+.apresent{
+    display:inline-flex;
+    padding: 10px;
+    text-align:left;
+    font-size: 16px;
+}
+
+.apresent img{
+    width: 70px;
+    height:70px;
+}
+
+main .apresent p{
+   display: flex;
+   font-size: 20px;
+   padding-left: 10px;
+   text-align: justify;
+}
+
+.pop{
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    width: 60vh;
+}
+
+@media (max-width: 800px){
+    li, a {
+        text-decoration: none;
+        font-size:11px;
+        list-style-type: none;
+        color: red;
+}
+.floating-button {
+    position: fixed;
+    bottom: 10px; /* Distância do rodapé */
+    right: 10px; /* Distância da borda direita */
+    background-color: rgb(0, 194, 0); /* Cor de fundo */
+    padding: 10px 10px; /* Espaçamento interno */
+    border-radius: 30px; /* Botão redondo */
+    cursor: pointer; /* Cursor de ponteiro */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 1000; /* Garante que o botão esteja acima dos outros elementos */
+    display: flex;
+    padding-inline: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+  }
+  main .apresent p{
+    display: flex;
+    font-size: 15px;
+    padding-left: 10px;
+    text-align: justify;
+ }
+ header img{
+    width: 0px;
+    height:0px;
+    
+}
+
+nav h1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+  
 }
