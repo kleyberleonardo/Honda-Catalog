@@ -88,6 +88,8 @@ main{
     background-color: rgb(240, 240, 240);
     border-radius: 0px 10px 0px 10px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .apresent{
@@ -109,12 +111,6 @@ main .apresent p{
    text-align: justify;
 }
 
-.pop{
-    background-color: aquamarine;
-    padding: 10px;
-    display: flex;
-    width: 60vh;
-}
 
 @media (max-width: 800px){
     li, a {
@@ -160,5 +156,10 @@ nav h1{
     padding: 0px 20px;
     font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-  
+main{
+    margin-top: 105px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0px 10px 0px 10px;
+    margin-bottom: 20px;
+}
 }
