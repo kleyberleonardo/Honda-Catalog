@@ -298,5 +298,27 @@ section img{
     border-radius: 15px 15px;
     
 }
+
+.conteiner{
+    background-image: url(images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 6px rgba(0, 0, 0, 0.473);
+    border-radius: 15px;
+    padding-top: 80PX;
+}
+
+.conteiner2{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 6px rgba(0, 0, 0, 0.473);
+    border-radius: 15px;
+    padding-top: 120PX;
+}
 }
 
